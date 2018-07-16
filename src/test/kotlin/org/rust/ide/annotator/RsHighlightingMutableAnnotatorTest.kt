@@ -5,7 +5,7 @@
 
 package org.rust.ide.annotator
 
-class RsHighlightingMutableAnnotatorTest : RsAnnotatorTestBase() {
+class RsHighlightingMutableAnnotatorTest : RsAnnotationTestBase() {
 
     fun `test mut self highlight`() = checkInfo("""
         struct <info>Foo</info> {}
